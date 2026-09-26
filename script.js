@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // CHECKOUT
   // =====================================================
 
-  const CHECKOUT_URL = "https://pay.hotmart.com/H107721724X?checkoutMode=10";
+  const CHECKOUT_URL = "https://ggcheckout.app/checkout/v2/ZsRbMtUSvMeluaEOdGI8";
 
   const checkoutButtons =
     document.querySelectorAll(".btn-checkout");
