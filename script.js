@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // CHECKOUT
   // =====================================================
 
-  const CHECKOUT_URL = "https://pay.hotmart.com/H107721724X?checkoutMode=10";
+  const CHECKOUT_URL = "https://pay.hotmart.com/H107721724X";
 
   const checkoutButtons =
     document.querySelectorAll(".btn-checkout");

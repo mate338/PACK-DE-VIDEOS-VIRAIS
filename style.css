@@ -2324,3 +2324,14 @@ footer {
   }
 
 }
+/* Bônus GTA 6 */
+.bonus-section { padding: 90px 0; background: #0d0b11; }
+.bonus-grid { display: grid; grid-template-columns: 1fr minmax(260px, 420px); align-items: center; gap: 64px; }
+.bonus-copy { max-width: 620px; }
+.bonus-tag { display: inline-block; color: #ffcf33; font-weight: 800; letter-spacing: .1em; font-size: .85rem; margin-bottom: 18px; }
+.bonus-copy h2 { font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1.1; margin: 0 0 22px; color: #fff; }
+.bonus-copy h2 span { color: #ffc600; }
+.bonus-copy p { color: #ddd; font-size: 1.08rem; line-height: 1.7; margin-bottom: 18px; }
+.bonus-copy .bonus-detail { color: #f5c640; font-size: .9rem; margin-bottom: 26px; }
+.bonus-art img { display: block; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 15px 55px #f0008650; }
+@media (max-width: 700px) { .bonus-section { padding: 60px 0; } .bonus-grid { grid-template-columns: 1fr; gap: 30px; } .bonus-art { max-width: 400px; margin: auto; } }
